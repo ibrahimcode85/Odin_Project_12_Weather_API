@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Weather App</title>
+  </head>
+  <body>
+    <h1>My Weather App</h1>
+    <div class="user_input">
+      <div class="input_location">
+        <label for="location">Please type your location:</label>
+        <input type="text" id="location" />
+      </div>
+      <div class="input_temp">
+        <label for="metric">Please select your temperature metric:</label>
+        <select id="metric">
+          <option value="temp_C">Celcius</option>
+          <option value="temp_F">Fahrenheit</option>
+        </select>
+      </div>
+      <div class="buttons">
+        <button>Show</button>
+        <button>Reset</button>
+      </div>
+    </div>
+    <div class="display"></div>
+  </body>
+</html>

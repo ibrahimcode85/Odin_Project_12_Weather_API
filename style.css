@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user_input {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 40%;
+  border: 1px solid grey;
+}
+.input_location,
+.input_temp {
+  display: flex;
+  padding: 5px;
+  margin: 10px 0px 10px 0px;
+}
+
+input[type="text"] {
+  border-width: 1px;
+  background-color: rgba(211, 211, 211, 0.685);
+}
+
+select {
+  padding: 2px;
+}
+
+label,
+input,
+select {
+  display: inline-block;
+  width: 250px;
+}
+
+.buttons {
+  margin-left: 250px;
+  width: 250px;
+}
+
+button {
+  margin: 5px;
+}
+
+.display {
+  height: 300px;
+  width: 40%;
+  border: 1px solid grey;
+  margin-top: 25px;
+}
